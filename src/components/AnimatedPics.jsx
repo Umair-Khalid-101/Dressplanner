@@ -46,7 +46,7 @@ const AnimatedPics = () => {
         variants={variants}
         animate={animationController == 1 ? "pic" : ""}
         transition={{ duration: 5 }}
-        className="w-[160px] h-[120px] rounded-[20px] 
+        className="w-[160px] h-[120px] opacity-0 rounded-[20px] 
         bg-slate-500 overflow-hidden absolute mr-[300px]"
       >
         <img src={Girl1R} alt="pic" className="w-full h-full" />
@@ -57,7 +57,7 @@ const AnimatedPics = () => {
           animate={animationController == 2 ? "pic" : ""}
           transition={{ duration: 5 }}
           className="mr-[300px]
-        w-[160px] h-[120px] rounded-[20px] bg-slate-500 
+        w-[160px] h-[120px] opacity-0 rounded-[20px] bg-slate-500 
         overflow-hidden"
         >
           <img src={Girl2R} alt="pic" className="w-full h-full" />
@@ -68,7 +68,7 @@ const AnimatedPics = () => {
           variants={variants}
           animate={animationController == 3 ? "pic" : ""}
           transition={{ duration: 5 }}
-          className="w-[160px] h-[120px] rounded-[20px] 
+          className="w-[160px] h-[120px] opacity-0 rounded-[20px] 
           bg-slate-500 overflow-hidden absolute mr-[760px] 
           mb-[120px]"
         >
